@@ -36,14 +36,21 @@ nav ul a{
     color: #8fa382;
 }
 .hero{
-    background-image: url("riccardo-trimeloni-lc5iIZ7UO1w-unsplash.jpg")
-    width: 100%;
+    background-color: #ccccc;
     height: 500px;
-    width: 100%
+    width: 100%;
+}
+.hero-img{
+    height: 500px;
+    width: 100%;
+    z-index: 1;
 }
 .gif{
     height: 100px;
-    margin-top: 175px;
     margin-left: 45%;
+    z-index: 2;
+    position: absolute;
+    left: 1%;
+    bottom: 55%;
 }
 
