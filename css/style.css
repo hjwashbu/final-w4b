@@ -43,4 +43,9 @@ nav ul a{
 section{
     height: 100px;
 }
+.hero{
+    height:500px;
+    width: 100%;
+    
+}
 
