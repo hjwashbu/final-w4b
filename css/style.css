@@ -3,7 +3,9 @@ body{
     background-color: #abbda7;
     margin: 0;
 }
+
 /* Navigation Bar */
+
 .navbar{
     background-color: #8fa382;
     border-bottom: 5px solid #fff;
@@ -22,6 +24,7 @@ body{
 }
 .navlinks{
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     display: inline-block;
     margin: 15px;
     margin-top: 23px;
@@ -36,7 +39,9 @@ body{
     background-color: #fff;
     color: #8fa382;
 }
+
 /* Hero Section */
+
 .hero{
     background-image: url("/img/riccardo-trimeloni-lc5iIZ7UO1w-unsplash.jpg");
     /* Photo by Riccardo Trimeloni on Unsplash  */
@@ -46,21 +51,39 @@ body{
     margin: 0;
     padding: 0;
     background-color: #808080;
-    height: 500px;
+    height: 400px;
     width: 100%;
     border-bottom: 5px solid #fff;
 }
 .gif{
-    height: 100px;
+    height: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .herotext{
-    margin-top: -20px;
+    margin-top: -60px;
 }
-
 h1{
     font-family: 'Roboto', sans-serif;
+    color: #3A475E;
     text-align: center;
+    letter-spacing: 60px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+/* Column Section */
+.row{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.column{
+    margin: 2.2%;
+    height: 500px;
+    width: 45%;
+    background-color: #fff;
+    border: 3px solid #3A475E;
+    float: left;
 }
