@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
 body{
     background-color: #abbda7;
     margin: 0;
 }
-nav{
+/* Navigation Bar */
+.navbar{
     background-color: #8fa382;
     border-bottom: 5px solid #fff;
     height: 100px;
     width: 100%;
     position: sticky;
+    /* WHY ISN'T STICKY WORKING? */
 }
 .logo{
     height: 100px;
     float: left;
 }
-.navbar{
+.navbarcopy{
     list-style-type: none;
     float: right;
 }
@@ -25,7 +26,7 @@ nav{
     margin: 15px;
     margin-top: 23px;
 }
-nav ul a{
+.navlinks a{
     color: #fff;
     font-size: 20px;
     text-decoration: none;
@@ -35,22 +36,31 @@ nav ul a{
     background-color: #fff;
     color: #8fa382;
 }
+/* Hero Section */
 .hero{
-    background-color: grey;
+    background-image: url("/img/riccardo-trimeloni-lc5iIZ7UO1w-unsplash.jpg");
+    /* Photo by Riccardo Trimeloni on Unsplash  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-color: #808080;
     height: 500px;
     width: 100%;
-}
-.hero-img{
-    height: 500px;
-    width: 100%;
-    z-index: 1;
+    border-bottom: 5px solid #fff;
 }
 .gif{
     height: 100px;
-    margin-left: 45%;
-    z-index: 2;
-    position: absolute;
-    left: 1%;
-    bottom: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.herotext{
+    margin-top: -20px;
 }
 
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
