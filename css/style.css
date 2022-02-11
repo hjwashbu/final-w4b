@@ -42,7 +42,9 @@ body{
 }
 /* Hero Section */
 .hero{
-    background-image: linear-gradient(to right, rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("../img/riccardo-trimeloni-lc5iIZ7UO1w-unsplash.jpg");
+    background-image: 
+    linear-gradient(to right, rgba(255,255,255,0.5),rgba(255,255,255,0.5)), 
+    url("../img/riccardo-trimeloni-lc5iIZ7UO1w-unsplash.jpg");
     /* Photo by Riccardo Trimeloni on Unsplash  */
     background-position: center;
     background-repeat: no-repeat;
@@ -88,6 +90,38 @@ h1{
     border: 3px solid #3A475E;
     float: left;
 }
+.ctext{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    color: #fff;
+    background-color:#3A475E;
+}
 .column1{
+    background-image: 
+    linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+    url("../img/Idaho.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.column1:hover{
+    background-image: 
+    /* linear-gradient(to right, rgba(255,255,255,0.5),rgba(255,255,255,0.5)),  */
+    url("../img/Idaho.jpg");
+}
 
+
+.column3{
+    background-image: 
+    linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+    url("../img/swing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.column3:hover{
+    background-image: 
+    /* linear-gradient(to right, rgba(255,255,255,0.5),rgba(255,255,255,0.5)),  */
+    url("../img/swing.jpg");
 }
