@@ -43,7 +43,7 @@ body{
 /* Hero Section */
 
 .hero{
-    background-image: url("/img/riccardo-trimeloni-lc5iIZ7UO1w-unsplash.jpg");
+    background-image: url("../img/riccardo-trimeloni-lc5iIZ7UO1w-unsplash.jpg");
     /* Photo by Riccardo Trimeloni on Unsplash  */
     background-position: center;
     background-repeat: no-repeat;
