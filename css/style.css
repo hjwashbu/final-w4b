@@ -83,8 +83,11 @@ h1{
 .column{
     margin: 2.2%;
     height: 500px;
-    width: 45%;
+    width: 28%;
     background-color: #fff;
     border: 3px solid #3A475E;
     float: left;
+}
+.column1{
+
 }
