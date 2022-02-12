@@ -10,6 +10,7 @@ nav{
     height: 100px;
     width: 100%;
     position: sticky;
+    top: 0;
 }
 .logo{
     height: 100px;
@@ -21,13 +22,16 @@ nav{
 }
 .navlinks{
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     display: inline-block;
     margin: 15px;
     margin-top: 23px;
 }
 nav ul a{
-    color: #fff;
+    color: #000;
     font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 5px;
     text-decoration: none;
 }
 .navlinks a:hover{

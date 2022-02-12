@@ -11,6 +11,7 @@ nav{
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 3;
 }
 .logo{
     height: 100px;
@@ -51,7 +52,6 @@ h1{
     margin-right: auto;
     width: 1000px;
 }
-
 .row{
     padding: 0;
     margin: 0;
@@ -61,8 +61,8 @@ h1{
     margin-right: auto;
 }
 .column{
-    margin: 2.2%;
-    width: 45%;
+    margin: 2%;
+    width: 46%;
     border:none;
     float: left;
     height: 1000px;
@@ -73,9 +73,8 @@ h1{
     font-weight: 700;
     font-size: 150%;
     text-align: center;
-    /* width: 27%; */
 }
-p{
+p, .map{
     position: relative;
 }
 .blogo{
@@ -84,21 +83,11 @@ p{
     height: 200px;
     margin: 25px;
 }
-.map{
-    position: relative;
-}
-/* .column2, .column3{
-    width: 27%;
-} */
-/* .column2{
-    background-color: #fff;
-    /* visibility: hidden; */
-/* } */ */
-
 .ee{
     margin: 20px;
     color:#abbda7;
     background-color: #fff;
+    /* MAKE SURE TO DELETE BACKGROUND COLOR BEFORE PUBLISHING */
     position: static;
 }
 .ee:hover{
