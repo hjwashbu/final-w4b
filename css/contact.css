@@ -58,13 +58,13 @@ h1{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* display: block;
+    display: block;
     margin-left:auto;
-    margin-right: auto; */
+    margin-right: auto;
 }
 .column{
     margin: 2.2%;
-    /* width: 45%; */
+    width: 45%;
     border:none;
     float: left;
     height: 1000px;
@@ -75,25 +75,33 @@ h1{
     font-weight: 700;
     font-size: 150%;
     text-align: center;
-    width: 27%;
+    /* width: 27%; */
+}
+p{
+    position: relative;
 }
 .blogo{
+    position:relative;
     border-radius: 50%;
     height: 200px;
     margin: 25px;
 }
-.column2, .column3{
-    width: 27%;
+.map{
+    position: relative;
 }
-.column2{
+/* .column2, .column3{
+    width: 27%;
+} */
+/* .column2{
     background-color: #fff;
     /* visibility: hidden; */
-}
+/* } */ */
 
 .ee{
     margin: 20px;
     color:#abbda7;
     background-color: #fff;
+    position: static;
 }
 .ee:hover{
     color: #3A475E;
