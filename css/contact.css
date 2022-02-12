@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
 body{
     background-color: #abbda7;
     margin: 0;
 }
+/* Navigation Bar */
 nav{
     background-color: #8fa382;
     border-bottom: 5px solid #fff;
     height: 100px;
     width: 100%;
     position: sticky;
+    position: fixed; 
+    top: 0;
 }
 .logo{
     height: 100px;
@@ -21,17 +23,62 @@ nav{
 }
 .navlinks{
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     display: inline-block;
     margin: 15px;
     margin-top: 23px;
 }
 nav ul a{
-    color: #fff;
+    color: #000;
     font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 5px;
     text-decoration: none;
 }
 .navlinks a:hover{
     text-transform:uppercase;
     background-color: #fff;
     color: #8fa382;
+}
+
+/* Body */
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    color: #3A475E;
+    margin-top: 150px;
+    font-size: 300%;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.row{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* display: block;
+    margin-left:auto;
+    margin-right: auto; */
+}
+.column{
+    margin: 2.2%;
+    width: 45%;
+    border:none;
+    float: left;
+}
+.column1{
+    font-family: 'Roboto', sans-serif;
+    color: #3A475E;
+    font-weight: 700;
+    font-size: 150%;
+    text-align: center;
+    width: 700px;
+}
+.blogo{
+    border-radius: 50%;
+    height: 200px;
+    margin: 25px;
 }
