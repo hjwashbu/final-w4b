@@ -82,3 +82,10 @@ h1{
     height: 200px;
     margin: 25px;
 }
+.ee{
+    margin: 20px;
+    color:#8fa382;
+}
+.ee:hover{
+    color: #3A475E;
+}
