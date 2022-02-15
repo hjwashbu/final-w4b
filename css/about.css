@@ -82,3 +82,17 @@ nav ul a{
     color: #fff;
     margin: 2%;
 }
+
+
+/* About Site */
+.section3{
+    background-color: #3A475E;
+    margin: 2%;
+    /* border-bottom: 3px solid #fff; */
+}
+.site{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 2%;
+    text-align: right;
+}
