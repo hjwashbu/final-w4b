@@ -3,6 +3,7 @@ body{
     background-color: #abbda7;
     margin: 0;
 }
+/* Navigation Bar */
 nav{
     background-color: #8fa382;
     border-bottom: 5px solid #fff;
@@ -38,7 +39,11 @@ nav ul a{
     background-color: #fff;
     color: #8fa382;
 }
-
+/* Top Section */
+.section1{
+    background-color: #abbda7;
+    float: left;
+}
 .row{
     padding: 0;
     margin: 0;
@@ -52,7 +57,7 @@ nav ul a{
     width: 46%;
     border:none;
     float: left;
-    height: 500px;
+    height: 350px;
 }
 .column1{
     background-image: url(../img/lighthouse.jpg);
@@ -62,6 +67,18 @@ nav ul a{
 }
 .column2{
     font-family: 'Roboto', sans-serif;
+    color: #3A475E;
     font-size: 35px;
     text-align:center;
+}
+/* About Dev */
+.section2{
+    background-color: #3A475E;
+    margin: 2%;
+    /* border-bottom: 3px solid #fff; */
+}
+.dev{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 2%;
 }
