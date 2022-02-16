@@ -84,12 +84,68 @@ p, .map{
     margin: 25px;
 }
 .ee{
-    margin: 20px;
+    margin: 0 25%;
     color:#abbda7;
-    background-color: #fff;
-    /* MAKE SURE TO DELETE BACKGROUND COLOR BEFORE PUBLISHING */
-    position: static;
 }
 .ee:hover{
     color: #3A475E;
+}
+
+/* Footer */
+.footer{
+    background-color: #3A475E;
+    height: 150px;
+    margin: 0;
+    clear: both;
+}
+.frow{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fc{
+    margin: 0 2.2%;
+    height: 150px;
+    width: 28%;
+    background-color: #3A475E;
+    float: left;
+}
+.flogo{
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.copyhw{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 13px;
+    margin-left: 45px;
+    padding-top: 10px;
+}
+.hippo{
+    color:#fff;
+    margin: 70px 0 0 47%;
+}
+.socials{
+    text-align: right;
+}
+.find{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 24px;
+}
+.soc:link, .soc:visited{
+    color: #fff;
+}
+.soc:hover{
+    color:#abbda7;
+}
+.soc:active{
+    color: #8fa382;
+}
+.fa-brands{
+    margin: 5px;
 }

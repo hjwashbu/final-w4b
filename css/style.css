@@ -172,7 +172,6 @@ h1{
     width: 28%;
     background-color: #3A475E;
     float: left;
-    /* border: 1px solid #fff; */
 }
 .flogo{
     height: 50px;
@@ -192,13 +191,23 @@ h1{
     margin: 70px 0 0 47%;
 }
 .socials{
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
     text-align: right;
 }
 .find{
-    margin-top: 45px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 40px;
     margin-right: 24px;
+}
+.soc:link, .soc:visited{
+    color: #fff;
+}
+.soc:hover{
+    color:#abbda7;
+}
+.soc:active{
+    color: #8fa382;
 }
 .fa-brands{
     margin: 5px;
