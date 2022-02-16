@@ -90,6 +90,10 @@ h1{
 }
 
 /* Column Section */
+.section{
+    float: left;
+    width: 100%;
+}
 .row{
     padding: 0;
     margin: 0;
@@ -149,3 +153,52 @@ h1{
     /* linear-gradient(to right, rgba(255,255,255,0.5),rgba(255,255,255,0.5)),  */
     url("../img/swing.jpg");
 }
+
+/* Footer */
+.footer{
+    background-color: #3A475E;
+    height: 150px;
+    margin: 0;
+    clear: both;
+}
+.frow{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fc{
+    margin: 0 2.2%;
+    height: 150px;
+    width: 28%;
+    background-color: #3A475E;
+    float: left;
+    border: 1px solid #fff;
+}
+.flogo{
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+.copyhw{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 13px;
+    margin-left: 45px;
+    padding-top: 10px;
+}
+.fa-hippo{
+    color:#fff;
+    margin: 70px 0 0 47%;
+}
+
+.socials{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    float: right;
+    margin-right: 45px;
+}
+.fa-brands{
+    margin: 5px;
+}
+
