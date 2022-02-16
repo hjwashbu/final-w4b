@@ -172,13 +172,13 @@ h1{
     width: 28%;
     background-color: #3A475E;
     float: left;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
 }
 .flogo{
     height: 50px;
     border-radius: 100%;
     margin-top: 25px;
-    margin-left: 45px;
+    margin-left: 100px;
 }
 .copyhw{
     font-family: 'Roboto', sans-serif;
@@ -191,12 +191,14 @@ h1{
     color:#fff;
     margin: 70px 0 0 47%;
 }
-
 .socials{
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    float: right;
-    margin-right: 45px;
+    text-align: right;
+}
+.find{
+    margin-top: 45px;
+    margin-right: 24px;
 }
 .fa-brands{
     margin: 5px;
