@@ -84,7 +84,9 @@ p, .map{
     margin: 25px;
 }
 .ee{
-    margin: 0 25%;
+    margin: 0;
+    position: relative;
+    left: 25%;
     color:#abbda7;
 }
 .ee:hover{
