@@ -157,6 +157,7 @@ h1{
 /* Footer */
 .footer{
     background-color: #3A475E;
+    border-top: 5px solid #fff;
     height: 150px;
     margin: 0;
     clear: both;
