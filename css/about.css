@@ -75,20 +75,42 @@ nav ul a{
 .section2{
     background-color: #3A475E;
     margin: 2%;
-    /* border-bottom: 3px solid #fff; */
 }
-.dev{
+.dev, .aboutme{
     font-family: 'Roboto', sans-serif;
     color: #fff;
     margin: 2%;
+    clear: both;
 }
+.aboutme{
+    font-size: 25px;
+    text-align: center;
+}
+.merow{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.mec{
+    margin: 2%;
+    width: 45%;
+    border:5px solid #fff;
+    float: left;
+    height: 300px;
+}
+
+
+
 
 
 /* About Site */
 .section3{
     background-color: #3A475E;
     margin: 2%;
-    /* border-bottom: 3px solid #fff; */
+    clear: both;
 }
 .site{
     font-family: 'Roboto', sans-serif;
