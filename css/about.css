@@ -57,13 +57,14 @@ nav ul a{
     width: 46%;
     border:none;
     float: left;
-    height: 350px;
+    height: 400px;
 }
 .column1{
     background-image: url(../img/lighthouse.jpg);
     /* picture of Pigeon Point Lighthouse from Sept. 2019 */
-    background-size:contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: -15px;
 }
 .column2{
     font-family: 'Roboto', sans-serif;
@@ -94,15 +95,22 @@ nav ul a{
     margin-left:auto;
     margin-right: auto;
 }
-.mec{
-    margin: 2%;
-    width: 45%;
+.mec3{
+    width: 28%;
     border:5px solid #fff;
+}
+.mec{
+    width: 45%;
+}
+.mec3, .mec{
+    margin: 2%;
     float: left;
     height: 300px;
 }
-
-
+.us{
+    height: 100%;
+    width: 100%;
+}
 
 
 
