@@ -99,13 +99,16 @@ nav ul a{
     width: 28%;
     border:5px solid #fff;
 }
+.thramily, .dorito{
+    width: 49%;
+}
 .mec{
     width: 45%;
 }
 .mec3, .mec{
     margin: 2%;
     float: left;
-    height: 300px;
+    height: 350px;
 }
 .us{
     height: 100%;
