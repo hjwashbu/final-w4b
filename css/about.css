@@ -83,6 +83,12 @@ nav ul a{
     margin: 2%;
     clear: both;
 }
+/* .dev, .aboutme{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 2%;
+    clear: both;
+} */
 .aboutme{
     font-size: 25px;
     text-align: center;
@@ -96,19 +102,19 @@ nav ul a{
     margin-right: auto;
 }
 .mec3{
-    width: 28%;
-    border:5px solid #fff;
+    width: 21%;
+    /* border:5px solid #fff; */
 }
-.thramily, .dorito{
-    width: 49%;
-}
-.mec{
-    width: 45%;
+.felton, .dorito, .thramily{
+    width: 100%;
 }
 .mec3, .mec{
     margin: 2%;
     float: left;
-    height: 350px;
+    height: 400px;
+}
+.mec{
+    width: 45%;
 }
 .us{
     height: 100%;
