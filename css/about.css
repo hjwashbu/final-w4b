@@ -53,7 +53,7 @@ nav ul a{
 .dev, .site{
     font-size: 42px;
 }
-.column2, .aboutme{
+.column2, .aboutme, .sitecredits{
     font-family: 'Roboto', sans-serif;
     color: #3A475E;
 }
@@ -139,10 +139,25 @@ nav ul a{
 }
 .sitec3{
     width: 29%;
-    border:1px solid #fff;
     margin: 2%;
     float: left;
-    height: 400px;
+    height: 625px;
+}
+.drafts{
+    width: 100%;
+}
+.credits{
+    font-weight: 900;
+    font-size: 40px;
+    text-align: left;
+}
+.sitecredits{
+    font-size: 22px;
+    margin-top: 5%;
+}
+.credits, .sitecredits{
+    margin: 2%;
+    clear: both;
 }
 
 
