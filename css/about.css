@@ -56,6 +56,7 @@ nav ul a{
 .column2, .aboutme, .sitecredits{
     font-family: 'Roboto', sans-serif;
     color: #3A475E;
+    font-weight: 700;
 }
 .aboutme{
     font-size: 25px;
@@ -141,10 +142,11 @@ nav ul a{
     width: 29%;
     margin: 2%;
     float: left;
-    height: 710px;
+    height: 675px;
 }
 .drafts{
     width: 100%;
+    height: 100%;
 }
 .credits{
     font-weight: 900;
